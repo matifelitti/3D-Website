@@ -16,6 +16,7 @@
         <div class="logo">World Explorer</div>
         <nav>
             <ul>
+                <li><a href="#hero">Home</a></li>
                 <li><a href="#gallery">Gallery</a></li>
                 <li><a href="#about">About</a></li>
             </ul>
@@ -23,6 +24,14 @@
     </header>
 
     <main>
+        <section id="hero">
+            <div class="hero-content">
+                <h1>Discover the World</h1>
+                <p>Unforgettable journeys await you</p>
+                <a href="#gallery" class="btn-explore">Explore Now</a>
+            </div>
+        </section>
+
         <section id="gallery">
             <!-- Paris -->
             <div class="card">
@@ -92,7 +101,7 @@
     </main>
 
     <footer>
-        <p>&copy; 2025 World Explorer</p>
+        <p>&copy; <span id="year"></span> World Explorer</p>
     </footer>
 
     <script src="script.js"></script>

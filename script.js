@@ -30,3 +30,27 @@ document.querySelectorAll(".card").forEach((card) => {
     card.style.transform = `rotateY(0deg) rotateX(0deg) scale(1)`;
   });
 });
+
+gsap.to("#hero", {
+  backgroundPosition: "50% 100%",
+  ease: "none",
+  scrollTrigger: {
+    trigger: "#hero",
+    start: "top top",
+    end: "bottom top",
+    scrub: true,
+  },
+});
+
+gsap.from(".hero-content", {
+  y: 100,
+  opacity: 0,
+  duration: 1.5,
+  ease: "power3.out",
+  scrollTrigger: {
+    trigger: "#hero",
+    start: "top 80%",
+  },
+});
+
+document.getElementById("year").textContent = new Date().getFullYear();
