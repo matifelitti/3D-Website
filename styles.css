@@ -109,7 +109,7 @@ main {
   }
 }
 
-/* ===== Gallery ===== */
+/* ===== Gallery Section ===== */
 #gallery {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -186,25 +186,50 @@ main {
   font-size: 1.2rem;
 }
 
-/* ===== About ===== */
+/* ===== About Section ===== */
 #about {
-  padding: 80px 20px;
+  padding: 100px 20px;
+  background: linear-gradient(to right, #f8f9fa, #ffffff);
   text-align: center;
+}
+
+.about-content {
+  max-width: 900px;
+  margin: 0 auto;
+  opacity: 0;
+  transform: translateY(50px);
 }
 
 #about h1 {
   font-size: 2.5rem;
   margin-bottom: 20px;
-}
-#about p {
-  font-size: 1.2rem;
-  max-width: 700px;
-  margin: 0 auto;
+  color: #333;
 }
 
+#about p {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  color: #555;
+}
+
+/* ===== Footer ===== */
 footer {
+  background: linear-gradient(to right, #333, #444);
+  color: #fff;
   text-align: center;
-  padding: 20px;
-  background: #222;
-  color: white;
+  padding: 40px 20px;
+  margin-top: 60px;
+  position: relative;
+}
+
+footer p {
+  font-size: 1rem;
+  letter-spacing: 1px;
+  opacity: 0.8;
+  margin: 0;
+}
+
+footer p:hover {
+  opacity: 1;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
 }

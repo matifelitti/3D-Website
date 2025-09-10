@@ -53,4 +53,16 @@ gsap.from(".hero-content", {
   },
 });
 
+gsap.to(".about-content", {
+  scrollTrigger: {
+    trigger: "#about",
+    start: "top 80%",
+    toggleActions: "play none none none",
+  },
+  opacity: 1,
+  y: 0,
+  duration: 1.5,
+  ease: "power3.out",
+});
+
 document.getElementById("year").textContent = new Date().getFullYear();
