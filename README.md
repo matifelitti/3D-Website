@@ -1,4 +1,4 @@
-# 🌍 World Explorer
+# 🌍 Travel Agency Website
 
 **World Explorer** is a responsive and interactive travel destinations website built with **HTML, CSS, and JavaScript (GSAP + ScrollTrigger)**.  
 It showcases popular destinations with smooth 3D hover effects, scroll-triggered animations, and a modern design.
@@ -35,7 +35,7 @@ It showcases popular destinations with smooth 3D hover effects, scroll-triggered
 1. **Clone this repository** or download the project files.
 
    ```bash
-   git clone https://github.com/matifelitti/3D-Website.git
+   git clone https://github.com/matifelitti/Travel-Agency-Website.git
    ```
 
 2. **Open `index.html`** in your browser.
