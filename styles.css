@@ -214,22 +214,85 @@ main {
 
 /* ===== Footer ===== */
 footer {
-  background: linear-gradient(to right, #333, #444);
+  background: #1c1c1c;
+  color: #f1f1f1;
+  padding: 60px 20px 30px;
+  margin-top: 80px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-company,
+.footer-subscribe {
+  flex: 1 1 45%;
+  min-width: 280px;
+}
+
+.footer-company h2,
+.footer-subscribe h2 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  color: #ffffff;
+}
+
+.footer-company p {
+  margin: 6px 0;
+  font-size: 0.95rem;
+  color: #cccccc;
+}
+
+.footer-subscribe p {
+  margin-bottom: 15px;
+  font-size: 0.95rem;
+  color: #cccccc;
+}
+
+/* Form styles */
+#subscribe-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+#subscribe-form input[type="email"] {
+  flex: 1;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  outline: none;
+  font-size: 0.95rem;
+}
+
+#subscribe-form button {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 6px;
+  background: #ff6f61;
   color: #fff;
+  font-size: 0.95rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+#subscribe-form button:hover {
+  background: #e85b50;
+}
+
+/* Bottom copyright */
+.footer-bottom {
   text-align: center;
-  padding: 40px 20px;
-  margin-top: 60px;
-  position: relative;
-}
-
-footer p {
-  font-size: 1rem;
-  letter-spacing: 1px;
-  opacity: 0.8;
-  margin: 0;
-}
-
-footer p:hover {
-  opacity: 1;
-  text-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
+  font-size: 0.85rem;
+  color: #999;
+  margin-top: 40px;
+  border-top: 1px solid #333;
+  padding-top: 20px;
 }
