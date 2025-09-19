@@ -65,4 +65,22 @@ gsap.to(".about-content", {
   ease: "power3.out",
 });
 
+let container = document.querySelector(".reviews-container");
+container.innerHTML += container.innerHTML;
+
+let totalWidth = container.scrollWidth / 2;
+
+let marquee = gsap.to(container, {
+  x: -totalWidth,
+  duration: 14,
+  ease: "linear",
+  repeat: -1,
+  modifiers: {
+    x: gsap.utils.unitize((x) => parseFloat(x) % -totalWidth),
+  },
+});
+
+container.addEventListener("mouseenter", () => marquee.pause());
+container.addEventListener("mouseleave", () => marquee.resume());
+
 document.getElementById("year").textContent = new Date().getFullYear();

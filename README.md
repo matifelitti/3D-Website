@@ -10,7 +10,6 @@ It showcases popular destinations with smooth 3D hover effects, scroll-triggered
 - 🎢 **Scroll Animations** powered by GSAP & ScrollTrigger
 - 📱 **Responsive Design** for mobile, tablet, and desktop
 - 📖 **About Section** with smooth fade-in animation
-- 📅 **Dynamic Footer Year** generated with JavaScript
 
 ## 🛠️ Technologies Used
 
