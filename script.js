@@ -65,6 +65,17 @@ gsap.to(".about-content", {
   ease: "power3.out",
 });
 
+gsap.to("#reviews", {
+  backgroundPosition: "50% 100%",
+  ease: "none",
+  scrollTrigger: {
+    trigger: "#reviews",
+    start: "top top",
+    end: "bottom top",
+    scrub: true,
+  },
+});
+
 let container = document.querySelector(".reviews-container");
 container.innerHTML += container.innerHTML;
 

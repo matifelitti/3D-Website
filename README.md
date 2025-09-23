@@ -5,11 +5,11 @@ It showcases popular destinations with smooth 3D hover effects, scroll-triggered
 
 ## ✨ Features
 
-- 🖼️ **Hero Section** with background image and parallax effect
-- 🎞️ **Interactive Gallery** – 3D hover animations on each destination card
-- 🎢 **Scroll Animations** powered by GSAP & ScrollTrigger
-- 📱 **Responsive Design** for mobile, tablet, and desktop
-- 📖 **About Section** with smooth fade-in animation
+- 🌍 **Travel Destinations Gallery** – Discover beautiful places around the world with images and details.
+- 🎨 **Modern UI/UX** – Responsive design with a clean layout and engaging animations.
+- ✨ **GSAP Animations** – Smooth 3D-like effects and scroll-triggered animations for a premium feel.
+- 💌 **Newsletter Subscription** – Users can subscribe to receive updates and promotions.
+- ⭐ **User Reviews Carousel** – A continuously scrolling reviews gallery.
 
 ## 🛠️ Technologies Used
 
